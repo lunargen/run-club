@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <div className="container mx-auto px-4">
-        <h1 className="text-8xl font-bold font-mono mb-4 text-center hover:text-gray-200">RunClub Championships 2024</h1>
+        <h1 className="lg:text-8xl sm:text-4xl font-bold font-mono mb-4 text-center hover:text-gray-200">RunClub Championships 2024</h1>
         <div className="flex justify-center items-center mb-4 text-center">
           <div className="justify-center">
             <ul>

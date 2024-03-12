@@ -8,14 +8,14 @@ const Navbar = () => {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <li><a href="/">HomePage</a></li>
+          <li><a href="/">Home</a></li>
           <li>
             <details>
               <summary>
-                Search List
+                Options
               </summary>
               <ul className="p-2 bg-primary text-white rounded-t-none">
-                <li><a href="/SponsorPage">Sponsership Details</a></li>
+                <li><a href="/SponsorPage">Sponserships</a></li>
                 <li><a href="/MissionPage">Our Mission</a></li>
                 <li><a href="/ContactPage">Contact Us</a></li>
               </ul>
