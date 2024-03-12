@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-primary text-white">
+    <div className="navbar bg-black text-white">
       <div className="flex-1">
         <a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="btn btn-ghost text-xl">Race Sign Up</a>
       </div>

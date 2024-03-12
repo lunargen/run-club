@@ -3,17 +3,11 @@ import React from "react";
 const MissionPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold font-mono mb-8">Our Mission</h1>
+      <h1 className="text-3xl font-bold font-mono mb-8 hover:text-gray-200">Our Mission</h1>
 
       <div className="max-w-3xl mx-auto">
-        <p className="text-lg font-mono">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis libero id velit laoreet hendrerit.
-          Integer malesuada vestibulum semper. Sed et nunc mauris. Ut placerat ipsum sit amet justo fermentum, ut
-          cursus lectus tincidunt. Sed et ante ut risus convallis fermentum non nec arcu. Sed sodales venenatis
-          magna, sit amet sodales mi convallis nec. Sed sit amet accumsan tellus, at varius urna. Integer ut
-          vehicula ex. Sed nec ante mauris. Donec eu felis nec ligula aliquam accumsan. Sed ultricies commodo eros,
-          sed laoreet risus efficitur eget. Fusce venenatis, velit ut hendrerit mollis, odio nulla rutrum orci, et
-          condimentum metus lorem vitae arcu.
+        <p className="text-lg font-mono hover:text-gray-200">
+        At RunClub Championships, our mission is to create an inclusive and vibrant community event that celebrates the spirit of athleticism, camaraderie, and local engagement. Our vision is to transform the University at Albany track into a bustling hub where local businesses bring colorful tents, offering a dynamic marketplace atmosphere. We strive to provide a platform where individuals of all ages and speeds can come together to participate in a variety of running, throwing, and jumping events, fostering a sense of unity and shared passion for fitness. By bringing the Albany community together for a day of excitement and celebration, we aim to create lasting memories and strengthen the bonds that unite us all.
         </p>
       </div>
     </div>
