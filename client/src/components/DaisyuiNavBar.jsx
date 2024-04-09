@@ -12,7 +12,19 @@ const Navbar = () => {
           <li>
             <details>
               <summary>
-                Options
+                Join Us
+              </summary>
+              <ul className="p-2 bg-primary text-white rounded-t-none">
+                <li><a href="/EventsPage">Future Events</a></li>
+                <li><a href="/CoachingPage">Get Coaching</a></li>
+              </ul>
+            </details>
+
+          </li>
+          <li>
+            <details>
+              <summary>
+                About Us
               </summary>
               <ul className="p-2 bg-primary text-white rounded-t-none">
                 <li><a href="/SponsorPage">Sponserships</a></li>
