@@ -1,5 +1,7 @@
 import React from "react";
 
+//will be changing the homepage.
+
 const HomePage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
