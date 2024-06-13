@@ -2,23 +2,33 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <div className="container mx-auto px-4">
-        <h1 className="lg:text-8xl sm:text-4xl font-bold font-mono mb-4 text-center hover:text-gray-200">RunClub Championships 2024</h1>
-        <div className="flex justify-center items-center mb-4 text-center">
-          <div className="justify-center">
-            <ul>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200">12PM May 18th 2024</li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200">University at Albany</li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">5000m</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">100m</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">400m</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">1500m</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">Shot Put</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">Long Jump</a></li>
-              <li className="text-4xl flex justify-center font-mono hover:text-gray-200"><a href="https://www.athletic.net/TrackAndField/meet/534089/info" className="text-4xl font-mono">Experience Excellence</a></li>
-            </ul>
+    <div className="relative w-full h-screen">
+      
+      <div className="absolute inset-0 z-0">
+        <img
+          src="./public/tomua.jpg"
+          alt="Banner"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      <div className="relative z-12 flex flex-col items-center justify-center h-full">
+        <h1 className="text-4xl font-bold text-center mt-1 mb-16 text-grey-900">
+          More than just a Run Club...
+        </h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          <div className="card w-80 bg-white bg-opacity-50 shadow-xl p-4">
+            <div className="card-body">
+              <h2 className="card-title text-black">Card 1</h2>
+              <p className="text-black">Information for the left card.</p>
+            </div>
           </div>
+           <div className="card w-80 bg-white bg-opacity-50 shadow-xl p-4">
+            <div className="card-body">
+              <h2 className="card-title text-black">Card 2</h2>
+              <p className="text-black">Information for the right card.</p>
+            </div>
+          </div> 
         </div>
       </div>
     </div>
