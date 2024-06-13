@@ -41,13 +41,13 @@ const EventsPage = () => {
                     <div class="card w-96 bg-base-100 shadow-xl">
                         <figure>
                             <div class="bg-gray-200 p-4">
-                                <img src="./public/CRF-Color.png" alt="Shoes" class="h-64 max-w" />
+                                <img src="./public/runclubmob.jpg" alt="Shoes" class="h-64 max-w" />
                             </div>
                         </figure>
 
                         <div class="card-body">
-                            <h2 class="card-title">Race River Run for the Roots</h2>
-                            <p>We will be hosting a table, and partying at Roots post event!!</p>
+                            <h2 class="card-title">Race FireCracker Four with us</h2>
+                            <p>We will be hosting a tent, and handing out jerseys!!</p>
                             <div class="card-actions justify-end">
                                 <a className="btn btn-primary" href="http://runsignup.com/Race/NY/SouthGlensFalls/RiverRunfortheRoots">Join Us</a>
                             </div>
