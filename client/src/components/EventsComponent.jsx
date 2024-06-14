@@ -3,7 +3,7 @@ import React from 'react';
 const EventsComponent = () => {
 
     return (
-        <div className="container mx-auto h-full">
+        <div className="container mx-auto h-full font-mono">
             <header>
                 <h1 className="text-3xl font-bold text-center my-8">Welcome to RunClub Events</h1>
                 <p className="text-center mb-8">Join us for a future event.</p>
@@ -19,10 +19,10 @@ const EventsComponent = () => {
                         </figure>
 
                         <div class="card-body">
-                            <h2 class="card-title">RunClub Championships</h2>
-                            <p>Sign up and support us at RunClub Championships.</p>
+                            <h2 class="card-title">RunClub Community</h2>
+                            <p>Participate in the RunClub Community.</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="https://www.athletic.net/TrackAndField/meet/534089/info">Join Us</a>
+                                <a className="btn btn-black" href="https://www.facebook.com/groups/259027783894516">Join the Facebook Group</a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const EventsComponent = () => {
                             <h2 class="card-title">Train with us</h2>
                             <p>Join our strava club, come to workouts and long runs.</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="https://www.strava.com/clubs/runclubtc">Join Us</a>
+                                <a className="btn btn-black" href="https://www.strava.com/clubs/runclubtc">Join Our Strava</a>
                             </div>
                         </div>
                     </div>
@@ -47,9 +47,9 @@ const EventsComponent = () => {
 
                         <div class="card-body">
                             <h2 class="card-title">Race FireCracker Four with us</h2>
-                            <p>We will be hosting a tent, and handing out jerseys!!</p>
+                            <p>We will be hosting a tent, and handing out jerseys!! Use Password "Runfast"</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="http://runsignup.com/Race/NY/SouthGlensFalls/RiverRunfortheRoots">Join Us</a>
+                                <a className="btn btn-black" href="https://fc4.squarespace.com/firecracker4">Sign Up for FC4</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const EventsComponent = () => {
                             <h2 class="card-title">Mayors Cup Team</h2>
                             <p>Help us win the 2024 Mayors Cup!</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="https://www.instagram.com/runclubtc/">Join Us</a>
+                                <a className="btn btn-black" href="https://docs.google.com/forms/d/e/1FAIpQLSdGRDxY7h3bLHVBPEFZREcoUdlBMSc2osVkSWXSmi8lAdo3-w/viewform?usp=sf_link">Fill out our survey</a>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const EventsComponent = () => {
                             <h2 class="card-title">Run Road Races with us.</h2>
                             <p>Stockadeathon, FireCracker Four, and more...</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="https://www.instagram.com/runclubtc/">Join Us</a>
+                                <a className="btn btn-black" href="https://www.instagram.com/runclubtc/">Check Us out on Instagram</a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ const EventsComponent = () => {
                             <h2 class="card-title">Get Private Coaching.</h2>
                             <p>Find out more about being a sponsored athlete for RunClub.</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-primary" href="/ContactPage">Join Us</a>
+                                <a className="btn btn-black" href="mailto:runclubhousesllc@gmail.com">Email Us</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const EventsComponent = () => {
                     <div className="max-w-3xl mx-auto">
                         <p className="text-lg mb-4 hover:text-gray-200">For inquiries and further information, please contact us:</p>
                         <ul className="list-disc pl-6">
-                            <li className="hover:text-gray-200">Email: ragonecharlie@gmail.com</li>
+                            <li className="hover:text-gray-200">Email: runclubhousesllc@gmail.com </li>
                             <li className="hover:text-gray-200">Phone: (518)878-7754</li>
                             <li className="hover:text-gray-200 text-info font-bold"><a href="https://www.instagram.com/runclubtc/">Instagram</a></li>
                             <li className="hover:text-gray-200 text-info font-bold"><a href="https://www.facebook.com/groups/259027783894516">Facebook</a></li>
