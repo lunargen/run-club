@@ -76,11 +76,11 @@ jobs:
           docker build . -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/runclub:${{ env.sha_short }}
           docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/runclub:${{ env.sha_short }}
 
-      #   - name: Deploy to Azure Web App
-      #     uses: azure/webapps-deploy@v2
-      #     with:
-      #       app-name: "fantasy-xc-v2"
-      #       images: "${{ secrets.REGISTRY_LOGIN_SERVER }}/runclub:${{ env.sha_short }}"
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: "run-club"
+          images: "${{ secrets.REGISTRY_LOGIN_SERVER }}/runclub:${{ env.sha_short }}"
 
       - name: Sign out of Azure
         run: |
