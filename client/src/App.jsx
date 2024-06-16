@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes, BrowserRouter as Router, Navigate } from 'react-router-dom';
 import HomePage from './containers/HomePage';
 import Navbar from './components/DaisyuiNavBar';
 import SponsorPage from './containers/SponsorPage';
@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/SponsorPage" element={<SponsorPage />} />
           <Route path="/MissionPage" element={<MissionPage />} />
+          <Route path="*" element={<Navigate to ="/" />} />
         </Routes>
       </Router>
     </div>
