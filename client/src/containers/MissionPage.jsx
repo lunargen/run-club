@@ -7,8 +7,7 @@ const MissionPage = () => {
 
       <div className="max-w-3xl mx-auto">
         <p className="text-lg font-mono hover:text-gray-200">
-        At RunClub Championships, our mission is to create an inclusive and vibrant community event that celebrates the spirit of athleticism, camaraderie, and local engagement. Our vision is to transform the University at Albany track into a bustling hub where local businesses bring colorful tents, offering a dynamic marketplace atmosphere. We strive to provide a platform where individuals of all ages and speeds can come together to participate in a variety of running, throwing, and jumping events, fostering a sense of unity and shared passion for fitness. By bringing the Albany community together for a day of excitement and celebration, we aim to create lasting memories and strengthen the bonds that unite us all.
-        </p>
+        At RunClub, located in the heart of Albany, New York, we are dedicated to fostering the growth and development of the cross country and track and field competitive community within the New York Capital Region. Our mission is to support and inspire athletes of all levels who run for competition, from beginners to seasoned competitors, by providing opportunities, resources, and a supportive environment to help them achieve their personal and athletic goals. Through our commitment to excellence and community, we aim to elevate the sport and build a vibrant, inclusive community of runners driven by a shared passion for competition and camaraderie.        </p>
       </div>
     </div>
   );
