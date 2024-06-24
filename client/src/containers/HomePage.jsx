@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import EventsComponent from '../components/EventsComponent';
+import React, { useEffect } from "react";
+import EventsComponent from "../components/EventsComponent";
 
 //will be changing the homepage.
 
@@ -7,16 +7,16 @@ const HomePage = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const scrollingImage = document.querySelector('.scrolling-image');
+      const scrollingImage = document.querySelector(".scrolling-image");
       if (scrollingImage) {
         scrollingImage.style.transform = `translateX(-${scrollPosition}px)`;
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -38,8 +38,6 @@ const HomePage = () => {
             className="scrolling-image w-20 h-20 object-contain"
           />
         </div>
-
-
       </div>
 
       <div className="relative w-full p-8">
@@ -50,7 +48,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-
-
-
