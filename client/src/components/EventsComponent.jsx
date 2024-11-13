@@ -5,8 +5,8 @@ const EventsComponent = () => {
     return (
         <div className="container mx-auto h-full font-mono">
             <header>
-                <h1 className="text-3xl font-bold text-center my-8">Welcome to RunClub Events</h1>
-                <p className="text-center mb-8">Join us for a future event.</p>
+                <h1 className="text-3xl font-bold text-center my-8">Welcome to RunClub...</h1>
+                <p className="text-center mb-8">The Capital Region's best training partners.</p>
             </header>
 
             <section className="my-8">
@@ -46,10 +46,10 @@ const EventsComponent = () => {
                         </figure>
 
                         <div class="card-body">
-                            <h2 class="card-title">Race FireCracker Four with us</h2>
-                            <p>We will be hosting a tent, and handing out jerseys!! Use Password "Runfast"</p>
+                            <h2 class="card-title">Race Project 13.1</h2>
+                            <p>We will be staying at an AirBNB, and racing fast half marathons</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://fc4.squarespace.com/firecracker4">Sign Up for FC4</a>
+                                <a className="btn btn-black" href="https://runsignup.com/Race/NY/Congers/Project131">Sign Up for Project 13.1</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const EventsComponent = () => {
 
                         <div class="card-body">
                             <h2 class="card-title">Mayors Cup Team</h2>
-                            <p>Help us win the 2024 Mayors Cup!</p>
+                            <p>Help us win the 2025 Mayors Cup!</p>
                             <div class="card-actions justify-end">
                                 <a className="btn btn-black" href="https://docs.google.com/forms/d/e/1FAIpQLSdGRDxY7h3bLHVBPEFZREcoUdlBMSc2osVkSWXSmi8lAdo3-w/viewform?usp=sf_link">Fill out our survey</a>
                             </div>
