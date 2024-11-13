@@ -18,38 +18,38 @@ const EventsComponent = () => {
                             <img src="./public/TrackImage.jpg" alt="Documents" className="h-64 max-w" />
                         </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">RunClub Community</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">RunClub Community</h2>
                             <p>Participate in the RunClub Community.</p>
-                            <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://www.facebook.com/groups/259027783894516">Join the Facebook Group</a>
+                            <div className="card-actions justify-end">
+                            <a className="group relative" href="https://www.facebook.com/groups/259027783894516"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Join the Facebook Group</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
+                                
                             </div>
                         </div>
                     </div>
                     {/* second card */}
-                    <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="./public/WinterRun.jpeg" alt="Assets" className="h-64 max-w" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Train with us</h2>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                        <figure><img src=".\public\WinterRun.jpeg" alt="Assets" className="h-64 max-w" /></figure>
+                        <div className="card-body">
+                            <h2 className="card-title">Train with us</h2>
                             <p>Join our strava club, come to workouts and long runs.</p>
-                            <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://www.strava.com/clubs/runclubtc">Join Our Strava</a>
+                            <div className="card-actions justify-end">
+                            <a className="group relative" href="https://www.strava.com/clubs/runclubtc"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Join Our Strava</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
+                               
                             </div>
                         </div>
                     </div>
                     {/* third card */}
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-96 bg-base-100 shadow-xl">
                         <figure>
-                            <div class="bg-gray-200 p-4">
-                                <img src="./public/runclubmob.jpg" alt="Shoes" class="h-64 max-w" />
-                            </div>
+                                <img src="./public/bert_stockade_finish.jpg" alt="Shoes" className="h-64 max-w" />
                         </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">Race Project 13.1</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Race Project 13.1</h2>
                             <p>We will be staying at an AirBNB, and racing fast half marathons</p>
-                            <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://runsignup.com/Race/NY/Congers/Project131">Sign Up for Project 13.1</a>
+                            <div className="card-actions justify-end">
+                            <a className="group relative" href="https://runsignup.com/Race/NY/Congers/Project131"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Sign Up for Project 13.1</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
                             </div>
                         </div>
                     </div>
@@ -59,38 +59,38 @@ const EventsComponent = () => {
             <section className="my-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* first second layer card */}
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-96 bg-base-100 shadow-xl">
                         <figure>
                             <img src="./public/MayorCup.jpeg" alt="Documents" className="h-64 max-w" />
                         </figure>
 
-                        <div class="card-body">
-                            <h2 class="card-title">Mayors Cup Team</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Mayors Cup Team</h2>
                             <p>Help us win the 2025 Mayors Cup!</p>
-                            <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://docs.google.com/forms/d/e/1FAIpQLSdGRDxY7h3bLHVBPEFZREcoUdlBMSc2osVkSWXSmi8lAdo3-w/viewform?usp=sf_link">Fill out our survey</a>
+                            <div className="card-actions justify-end">
+                            <a className="group relative" href="https://docs.google.com/forms/d/e/1FAIpQLSdGRDxY7h3bLHVBPEFZREcoUdlBMSc2osVkSWXSmi8lAdo3-w/viewform?usp=sf_link"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Fill out our survey</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
                             </div>
                         </div>
                     </div>
                     {/* second second layer card */}
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-96 bg-base-100 shadow-xl">
                         <figure><img src="./public/RunClubTent.jpg" alt="Shoes" className="h-64 max-w" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Run Road Races with us.</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Run Road Races with us.</h2>
                             <p>Stockadeathon, FireCracker Four, and more...</p>
                             <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="https://www.instagram.com/runclubtc/">Check Us out on Instagram</a>
+                            <a className="group relative" href="https://www.instagram.com/runclubtc/"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Check Us out on Instagram</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
                             </div>
                         </div>
                     </div>
                     {/* third second layer card */}
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div className="card w-96 bg-base-100 shadow-xl">
                         <figure><img src="./public/clubicon.jpg" alt="Shoes" className="h-64 max-w" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Get Private Coaching.</h2>
+                        <div className="card-body">
+                            <h2 className="card-title">Get Private Coaching.</h2>
                             <p>Find out more about being a sponsored athlete for RunClub.</p>
-                            <div class="card-actions justify-end">
-                                <a className="btn btn-black" href="mailto:runclubhousesllc@gmail.com">Email Us</a>
+                            <div className="card-actions justify-end">
+                            <a className="group relative" href="mailto:runclubhousesllc@gmail.com"><div className="relative z-10 inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-black bg-transparent px-6 font-medium text-neutral-600 transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-active:translate-x-0 group-active:translate-y-0">Email Us</div><div className="absolute inset-0 z-0 h-full w-full rounded-md transition-all duration-300 group-hover:-translate-x-3 group-hover:-translate-y-3 group-hover:[box-shadow:5px_5px_#a3a3a3,10px_10px_#d4d4d4,15px_15px_#e5e5e5] group-active:translate-x-0 group-active:translate-y-0 group-active:shadow-none"></div></a>
                             </div>
                         </div>
                     </div>
